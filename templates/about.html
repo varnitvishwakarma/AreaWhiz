@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            width: 100%;
+            position: fixed;
+            top: 0;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .data-section {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px;
+            
+        }
+        .heading{
+            font-size: 00px;
+            text-align: center;
+            margin-top:80px;
+
+
+        }
+        
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-align: center;
+            color: white; 
+        }
+
+        p {
+            font-size: 22px;
+            margin: 10px 0;
+        }
+        
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a onclick="openHomePage()">Home</a>
+    <a onclick="openAboutPage()">About</a>
+    <a onclick="openContactPage()">Contact Us</a>
+</div>
+<div class="heading">
+
+    
+</div>
+<h2>Welcome to AreaWhiz</h2>
+
+<div class="data-section">
+   
+    <p>Your one-stop destination for calculating the areas of various geometric shapes. We're passionate about making complex calculations simple and accessible to everyone, and that's what drives us at AreaWhiz.</p>
+</div>
+<h2>Our Mission</h2>
+<div class="data-section">
+    
+    <p>At AreaWhiz, our mission is to provide you with easy-to-use tools that help you quickly and accurately calculate the areas of different shapes. Whether you're a student studying geometry, a professional needing precise measurements, or simply curious about the world of mathematics, we've got you covered.</p>
+</div>
+<h2>What We Offer</h2>
+<div class="data-section">
+   
+    <p>Our website offers a wide range of shape calculators, including:</p>
+    <ul>
+        <li>Circle: Calculate the area of a circle by entering its radius.</li>
+        <li>Cone: Find the surface area and volume of a cone with ease.</li>
+        <li>Cylinder: Calculate the surface area and volume of a cylinder effortlessly.</li>
+        <li>Decagon: Quickly compute the area of a decagon.</li>
+        <li>Ellipse: Get precise results for the area of an ellipse.</li>
+        <li>Heptagon: Measure the area of a heptagon effortlessly.</li>
+        <li>Hexagon: Calculate the area of a hexagon in no time.</li>
+        <li>Nonagon: Find the area of a nonagon with just a few clicks.</li>
+        <li>Octagon: Accurately calculate the area of an octagon.</li>
+        <li>Parallelogram: Determine the area of a parallelogram effortlessly.</li>
+        <li>Pentagon: Compute the area of a pentagon with ease.</li>
+        <li>Rectangle: Find the area of a rectangle quickly and accurately.</li>
+        <li>Rhombus: Calculate the area of a rhombus effortlessly.</li>
+        <li>Sphere: Discover the surface area and volume of a sphere.</li>
+        <li>Square: Measure the area of a square with ease.</li>
+        <li>Trapezoid: Get precise results for the area of a trapezoid.</li>
+        <li>Triangle: Quickly compute the area of a triangle.</li>
+    </ul>
+</div>
+<h2>Why Choose Us</h2>
+<div class="data-section">
+    
+    <p>
+        <b>User-Friendly:</b> Our calculators are designed to be easy to use, even for those new to geometry.<br>
+        <b>Accuracy:</b> We ensure that our calculations are highly accurate, so you can rely on the results.<br>
+        <b>Educational:</b> AreaWhiz is an excellent resource for students and educators looking to explore geometry.<br>
+        <b>Professional:</b> Professionals in various fields can use our tools for their work and projects.<br>
+    </p>
+</div>
+<h2>Get Started</h2>
+<div class="data-section">
+    
+    <p>Ready to explore the world of shapes and their areas? Use our intuitive calculators to make your geometry calculations a breeze. Simply select the shape you want to calculate, input the required parameters, and let AreaWhiz do the rest.</p>
+    <p>Thank you for choosing AreaWhiz for all your shape area calculations. We're here to make geometry fun, accessible, and hassle-free. If you have any questions or feedback, please don't hesitate to <a onclick="openContactPage()">contact us</a>.</p>
+    <p>Discover the magic of geometry with AreaWhiz!</p>
+</div>
+
+</body>
+<script>
+
+function openHomePage() {
+    window.location.href = "/home";
+}
+
+function openContactPage() {
+    window.location.href = "/contact";
+}
+
+</script>
+</html>
