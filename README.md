@@ -1,2 +1,2 @@
-![Screenshot 2023-09-24 172918](https://github.com/varnitvishwakarma/TRAVELLING_COST_CALCULATOR/assets/120304453/350d188e-fbff-4675-bc1d-263ed05d5094)
 
+![AREA](https://github.com/varnitvishwakarma/AreaWhiz/assets/120304453/496c1bdc-c94f-413e-914d-9e143cf757e3)
